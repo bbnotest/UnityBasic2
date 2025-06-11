@@ -976,7 +976,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 857479795}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 552590670}
+        m_TargetAssemblyTypeName: Renpy, Assembly-CSharp
+        m_MethodName: OnClickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &857479795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1222,7 +1234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d7128619174930440a4f60bdeedb7403, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2999cf9540483724bb8ab74dc1a21607, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2046,6 +2058,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   testDatas: {fileID: 11400000, guid: b30fc927821152f4a815fd2d9a688cf2, type: 2}
+  dialogueDatas: {fileID: 11400000, guid: 42b815d75a5cef64784bbca7415e536b, type: 2}
+  characterDatas: {fileID: 11400000, guid: 67e6dd646da9eee4abe5866d93caeff6, type: 2}
 --- !u!1 &2113189505
 GameObject:
   m_ObjectHideFlags: 0
